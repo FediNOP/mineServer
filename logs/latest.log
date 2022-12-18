@@ -1,0 +1,15 @@
+[18:39:24] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:39:24] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Неверный дескриптор
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_351]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_351]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
